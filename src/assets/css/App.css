@@ -50,7 +50,7 @@
 }
 
 #m-bar-1.active{
-  top: 5px;
+  top: 2px;
   transform: rotate(45deg);
 }
 
@@ -74,7 +74,7 @@
 }
 
 #m-bar-3.active{
-  bottom: 5px;
+  bottom: 2px;
   transform: rotate(-45deg);
 }
 
