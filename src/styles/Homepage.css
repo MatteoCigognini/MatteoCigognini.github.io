@@ -1,0 +1,203 @@
+.App-homepage-banner {
+    height: auto;
+    width: 100%;
+    padding: 4vh 0;
+}
+
+.App-banner-caption, .App-banner-image {
+    height: 50vh;
+    width: 100%;
+}
+
+.App-banner-image {
+    background-image: url('../images/portfolio-image.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.App-banner-caption {
+    padding: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App-banner-caption h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #313131;
+    text-align: center;
+}
+
+.App-banner-caption h1 span {
+    color: #3282b8;
+}
+
+.App-banner-caption p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #313131;
+    text-align: left;
+    margin-top: 2vh;
+}
+
+#App-hire-me-btn {
+    height: 50px;
+    width: auto;
+    border: 0;
+    border-radius: 20px 20px 20px 8px;
+    padding: 0 2vw;
+    margin-top: 2vh;
+    background-color: #3282b8;
+    color: #fff;
+    box-shadow: 0px 0px 20px 0px #bbe1fa83;
+    transition: all .2s ease-in-out;
+}
+
+#App-hire-me-btn:hover {
+    background-color: #0f4c75;
+    box-shadow: 0px 10px 20px 0px #bbe1fa83;
+}
+
+/* Services section */
+
+.App-services-section {
+    height: auto;
+    width: 100%;
+    padding: 4vh 0;
+}
+
+.App-services-container {
+    height: auto;
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.App-service-item {
+    height: 40vh;
+    width: 100%;
+    padding: 0 8vw;
+    border-radius: 20px;
+    display: grid;
+    column-gap: 0;
+}
+
+.App-service-item:nth-child(odd) {
+    grid-template-columns: 40% 60%;
+    transform: translateX(10%);
+}
+
+.App-service-item:nth-child(even) {
+    grid-template-columns: 60% 40%;
+    transform: translateX(-10%);
+}
+
+.App-service-description, .App-service-image {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.App-service-icon {
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 0px #bbe1fa83;
+}
+
+.App-service-item h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #313131;
+    text-align: left;
+    margin-top: 4vh;
+}
+
+.App-service-item h2 span {
+    color: #3282b8;
+}
+
+.App-service-item p {
+    width: 60%;
+    padding-top: 1.5vh;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6b6b6b;
+    text-align: left;
+}
+
+.App-website-icon {
+    background-image: url("../images/website.png");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+/* Works section */
+
+.App-works-section {
+    height: auto;
+    width: 100%;
+    padding: 4vh 0;
+}
+
+.App-works-container {
+    height: auto;
+    width: 100%;
+    margin-top: 4vh;
+    grid-template-columns: repeat(2, calc(50% - 1vw));
+    column-gap: 2vw;
+}
+
+.App-work-item {
+    height: auto;
+    width: 100%;
+    padding: 6vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px #bbe1fa83;
+}
+
+.App-work-item h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.App-work-item h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.App-work-item p {
+    margin-top: 1.5vh;
+    padding: 0 3vw;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.App-work-preview {
+    height: 30vh;
+    width: 100%;
+    margin-top: 4vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    perspective: 500px;
+    transform-style: preserve-3d;
+    transform: rotateX(30deg);
+}
+
+.App-work-sognando-casa {
+    background-image: url("../images/Sognando\ Casa.jpg");
+}

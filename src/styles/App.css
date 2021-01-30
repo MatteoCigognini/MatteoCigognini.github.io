@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600;700&display=swap');*/
+*,
+*::before,
+*::after {
+  font-family: 'Montserrat';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button{
+  outline: none;
+  cursor: pointer;
+}
+
+.App-section-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #313131;
+}
+
+.App-section-title span {
+  color: #3282b8;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-breakpoint {
+  height: auto;
+  width: 80%;
+  margin: auto;
+}
+
+/* Grids */
+.App-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+/*Margins*/
+.mar-top-4{
+  margin-top: 4vh;
+}
+/*Colors*/
+/*Backgrounds*/
+.bg-color-1{
+  background-color: #3282b8;
+}
+.bg-color-2{
+  background-color: #bbe1fa;
+}
+.bg-color-3{
+  background-color: #f7f8fa;
+}
+
+/*Font colors*/
+.color-white{
+  color: #fff;
+}
+.color-1{
+  color: #3282b8;
+}
+.color-2{
+  color: #bbe1fa;
+}
+.color-3{
+  color: #f7f8fa;
+}

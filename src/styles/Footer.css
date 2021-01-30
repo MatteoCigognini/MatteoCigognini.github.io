@@ -1,0 +1,16 @@
+.App-footer{
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #f7f8fa;
+}
+
+.App-footer h4{
+    font-size: .775rem;
+    font-weight: 700;
+    color: #3282b8;
+}
+
+.App-footer h4 a{
+    color: inherit;
+}
